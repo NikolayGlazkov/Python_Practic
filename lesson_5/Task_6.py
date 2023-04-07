@@ -1,7 +1,8 @@
 import random
 
+
 def guess_number(num, attempt):
-   
+
     if attempt == 0:
         print(f"Вы проиграли! Загаданное число было: {num}")
         return False
@@ -16,6 +17,7 @@ def guess_number(num, attempt):
         return True
 
     return guess_number(num, attempt-1)
+
 
 # Тестирование
 num = random.randint(0, 100)

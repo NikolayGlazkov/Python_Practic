@@ -17,5 +17,6 @@ def sum_and_count(input_string, count=0,):
         total, count = sum_and_count(remaining_string, count+1)
         return (number + total, count)
 
+
 input_string = input()
 print(sum_and_count(input_string, count=0))
